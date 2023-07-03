@@ -1,2 +1,14 @@
-# ml_api
-The code (and model) for a machine learning API that takes text as input and returns a note between 0 and 4 using a prediction model (SVM) trained using the code stored in my repo "SentimentAnalysis"
+# Machine Learning API
+## How?
+### Install the requirements.txt
+### then what's going on?
+The API takes text as input and then applies few preprocessing : 
+- removal of stop-words/punctuation/non-alphabetic characters
+- lemmatisation 
+- vectorisation using tf-idf
+and then infers the note using the preprocessed text and the model built using SVM algorithm.
+This note is then returned by the API
+### the interface 😂
+You can use the very simple interface made in few minutes using streamlit
+![Enter a comment](/supports/Screenshot_1.png)
+![Get the note](/supports/Screenshot_2.png)
