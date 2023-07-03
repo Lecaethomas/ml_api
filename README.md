@@ -1,6 +1,7 @@
 # Machine Learning API
 ## How?
 Install the requirements.txt
+type 	``` python app.py 	```
 ### Then what's going on?
 The API takes text as input and then applies few preprocessing : 
 - removal of stop-words/punctuation/non-alphabetic characters
@@ -10,5 +11,6 @@ and then infers the note using the preprocessed text and the model built using S
 This note is then returned by the API
 ### The interface 😂
 To test the API you can use the very simple interface made in few minutes using streamlit
+type: 	``` streamlit run front.py	```
 ![Enter a comment](/supports/Screenshot_1.png)
 ![Get the note](/supports/Screenshot_2.png)
